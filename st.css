@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    padding: 20px;
+    color: white;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+}
+
+/* Navigation */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+    background-color: #fff0f5;
+    padding: 30px;
+}
+
+.hero img {
+    width: 90%;
+    max-width: 500px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/* Services */
+#services {
+    padding: 30px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 260px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px lightgray;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
+
+/* Contact */
+#contact {
+    background-color: #fff0f5;
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: hotpink;
+    color: white;
+    padding: 10px;
+}
